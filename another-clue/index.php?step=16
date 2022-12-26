@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		 <style>
+		   #map {
+			height: 400px;
+			width: 100%;
+		   }
+		</style>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<title>Another Clue!</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class='navbar-brand' href='index.php'>
+				It's Another Clue!
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a href="index.php" class='nav-item nav-link'>Home</a>
+				</div>
+			</div>
+		</nav>
+		<br>
+		<br>
+		<div class="container-fluid">
+
+		<h2>Riddle</h2>
+		<p>Source: Original</p>
+		<p>
+			Like a swinging pendulum,<br>
+			I came in to break you down,<br>
+			So something can be built anew.
+		</p>
+	<h2>Pick an Answer</h2><div class='row'>
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='pig.jpg' />
+						<input type='image' src='images/pig.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='mrt.jpg' />
+						<input type='image' src='images/mrt.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='banana.jpg' />
+						<input type='image' src='images/banana.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		</div><div class='row'>
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='ribcage.jpg' />
+						<input type='image' src='images/ribcage.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='chip.jpg' />
+						<input type='image' src='images/chip.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='cat1.jpg' />
+						<input type='image' src='images/cat1.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		</div><div class='row'>
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='fam.jpg' />
+						<input type='image' src='images/fam.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='wreckingball.jpg' />
+						<input type='image' src='images/wreckingball.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='duck.jpg' />
+						<input type='image' src='images/duck.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		</div><div class='row'>
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='potato.jpg' />
+						<input type='image' src='images/potato.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='teeth.jpg' />
+						<input type='image' src='images/teeth.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		
+			<div class='col-sm align-self-center'>
+				<form action='checkAnswer.php' method='post' enctype='multipart/form-data'> 
+						<input type='hidden' name='response' id='response' value='hippo.jpg' />
+						<input type='image' src='images/hippo.jpg' class='img-fluid mx-auto d-block' alt='Submit Form'  />
+				</form>
+			</div>
+		</div>
+<div class='container-fluid'>
+	<p></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
+
